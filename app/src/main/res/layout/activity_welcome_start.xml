@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E95322"
+    tools:context=".WelcomeStart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginTop="220dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/league_spartan"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Log In"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="#E95322"
+            android:backgroundTint="#F5CB58"/>
+
+        <Button
+            android:id="@+id/btnSigUp"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#F3E9B5"
+            android:text="Sign Up"
+            android:textColor="#E95322" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
